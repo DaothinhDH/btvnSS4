@@ -1,0 +1,30 @@
+img{
+    width: 350px;
+    height: 330px;
+    background-image: url(ảnhlisa.jpg);
+    
+    
+
+}
+body{
+    border: 1px solid;
+    width: 350px;
+}
+fa-solid fa-eye{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#a1{
+    position: absolute;
+    top: 264px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+i{
+    width: 350px;
+    height: 50px;
+    background-color: rgba(1, 15, 15, 0.324);
+    color: white;
+    
+}
+

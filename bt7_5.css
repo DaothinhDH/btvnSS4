@@ -1,0 +1,14 @@
+div{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(109, 122, 122, 0.829);
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 1s ease;
+    font-size: 3rem;
+}
+div:hover{
+   border-radius: 50%;
+}

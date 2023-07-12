@@ -1,0 +1,14 @@
+div{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(119, 106, 132);
+    text-align: center;
+    line-height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 1s ease;
+    color: white;
+    font-size: 3rem;
+}
+div:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,39 @@
+.to{
+    position: relative;
+    background-image: url(https://thietbiquayphim.com/wp-content/uploads/2022/02/cach-chup-anh-trong-phong-toi-3.png);
+    width: 350px;
+    height: 460px;
+    border-radius: 10px;
+}
+
+
+.p1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 30px;   
+   
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(145, 128, 128);
+    position: absolute;
+    top: 74%;
+    left: 30px;
+}
+.p3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+}
+i{  
+    color: rgb(196, 207, 217);
+    position: absolute;
+    bottom: 30px;
+    left: 90px;
+}

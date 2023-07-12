@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            transform: translate(0px, 0px);
+            translate: -150px;
+            transition: all 1s ease-in-out;
+
+        }
+        i{
+            margin: 20px;
+            transition: all 0.2s ease-in-out;
+            transform: scale(2);
+            cursor: pointer;
+        }
+
+        .submit {
+            transform: translate(-1px, 20px);
+        }
+
+        body {
+            transform: translate(50px);
+        }
+        i:hover{
+            transform: scale(1.5);
+        }
+        i:active+div{
+            translate: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <i class="fa-solid fa-bars"></i>
+    <div class="Box">
+        <ul class="submit">
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
